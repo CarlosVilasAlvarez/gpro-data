@@ -1,0 +1,12 @@
+{
+  "name": "gpro-data",
+  "version": "0.0.0",
+  "description": "Script to get gpro data",
+  "main": "src/index.js",
+  "repository": "https://github.com/CarlosVilasAlvarez/gpro-data.git",
+  "author": "CarlosVilasAlvarez <carlosvilasalvarez@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "jsdom": "^16.4.0"
+  }
+}
