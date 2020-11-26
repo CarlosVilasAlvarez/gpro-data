@@ -6,7 +6,10 @@
   "repository": "https://github.com/CarlosVilasAlvarez/gpro-data.git",
   "author": "CarlosVilasAlvarez <carlosvilasalvarez@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "start": "node ./src/index.js"
+  },
   "dependencies": {
-    "jsdom": "^16.4.0"
+    "puppeteer": "^5.5.0"
   }
 }
