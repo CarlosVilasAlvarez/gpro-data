@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>GPRO DATA</title>
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="script-src 'self' 'unsafe-inline';"
+    />
+  </head>
+  <body style="background: white">
+    <h1>GPRO DATA</h1>
+    <button>Hacer captura</button>
+  </body>
+  <script>
+    const { ipcRenderer } = require("electron");
+
+    const screenshotButton = document.querySelector("button");
+    screenshotButton.addEventListener("click", () => {
+      ipcRenderer.invoke("capturaRaceAnalysis");
+    });
+  </script>
+</html>

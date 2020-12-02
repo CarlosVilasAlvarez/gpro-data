@@ -6,8 +6,7 @@ async function captureRaceAnalysis(page) {
   ]);
   // Take screenshot
   await page.screenshot({
-    path: "./race-analysis.jpg",
-    quality: 80,
+    path: "./race-analysis.png",
     clip: { x: 19, width: 944, y: 339, height: 1760 },
   });
   // Return to home
