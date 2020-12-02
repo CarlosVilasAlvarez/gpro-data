@@ -11,13 +11,15 @@
   <body style="background: white">
     <h1>GPRO DATA</h1>
     <button>Hacer captura</button>
+    <div>
+      Iconos diseñados por
+      <a href="https://www.flaticon.es/autores/freepik" title="Freepik">
+        Freepik
+      </a>
+      from
+      <a href="https://www.flaticon.es/" title="Flaticon">www.flaticon.es</a>
+    </div>
   </body>
-  <script>
-    const { ipcRenderer } = require("electron");
-
-    const screenshotButton = document.querySelector("button");
-    screenshotButton.addEventListener("click", () => {
-      ipcRenderer.invoke("capturaRaceAnalysis");
-    });
-  </script>
+  <script src="https://unpkg.com/vue@next"></script>
+  <script src="scripts/ipcRenderer"></script>
 </html>
