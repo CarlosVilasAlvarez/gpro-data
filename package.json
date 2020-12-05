@@ -1,15 +1,20 @@
 {
   "name": "gpro-data",
   "version": "0.0.0",
-  "description": "Script to get gpro data",
-  "main": "src/index.js",
+  "description": "Get gpro data",
+  "main": "src/main.js",
   "repository": "https://github.com/CarlosVilasAlvarez/gpro-data.git",
   "author": "CarlosVilasAlvarez <carlosvilasalvarez@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "start": "node ./src/index.js"
+    "start": "electron ./src/main.js"
   },
   "dependencies": {
-    "puppeteer": "^5.5.0"
+    "puppeteer-core": "^5.5.0",
+    "puppeteer-in-electron": "^3.0.3"
+  },
+  "devDependencies": {
+    "electron": "^11.0.3",
+    "electron-builder": "^22.9.1"
   }
 }
