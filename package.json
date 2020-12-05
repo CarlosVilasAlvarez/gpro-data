@@ -10,8 +10,11 @@
     "start": "electron ./src/main.js"
   },
   "dependencies": {
-    "electron": "^11.0.3",
     "puppeteer-core": "^5.5.0",
     "puppeteer-in-electron": "^3.0.3"
+  },
+  "devDependencies": {
+    "electron": "^11.0.3",
+    "electron-builder": "^22.9.1"
   }
 }

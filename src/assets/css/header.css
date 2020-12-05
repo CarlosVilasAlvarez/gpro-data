@@ -1,0 +1,44 @@
+header {
+  display: flex;
+  justify-content: center;
+  font-family: "Titillium Web", sans-serif;
+  padding: 8px 0px 8px 0px;
+  color: white;
+  background-color: black;
+  border-bottom: 5px solid #697586;
+}
+
+.header-start {
+  width: 25%;
+}
+
+.header-middle {
+  display: flex;
+  justify-content: center;
+  flex-grow: 1;
+  font-size: 1.625rem;
+}
+
+.header-end {
+  width: 25%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.header-end img {
+  width: 35px;
+}
+
+.header-end a {
+  display: flex;
+  flex-shrink: 1;
+}
+
+.header-end .github-icon {
+  margin-right: 1.8rem;
+}
+
+.header-end .gmail-icon {
+  margin-right: 5rem;
+}

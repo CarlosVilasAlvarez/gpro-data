@@ -1,25 +1,55 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8" />
-    <title>GPRO DATA</title>
-    <meta
-      http-equiv="Content-Security-Policy"
-      content="script-src 'self' 'unsafe-inline';"
-    />
-  </head>
-  <body style="background: white">
-    <h1>GPRO DATA</h1>
-    <button>Hacer captura</button>
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Gpro Data</title>
+  <script src="https://cdn.jsdelivr.net/npm/vue@2.6.12/dist/vue.min.js"></script>
+  <script src="https://unpkg.com/vue-router@3.4.9/dist/vue-router.js"></script>
+  <link rel="stylesheet" href="assets/css/general.css" />
+  <link rel="stylesheet" href="assets/css/header.css" />
+  <link rel="stylesheet" href="assets/css/main.css" />
+  <link rel="stylesheet" href="assets/css/footer.css" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@600&family=Titillium+Web:wght@700&display=swap"
+    rel="stylesheet" />
+</head>
+
+<body style="background: white">
+  <header>
+    <div class="header-start"></div>
+    <div class="header-middle">
+      <h1>GPRO DATA</h1>
+    </div>
+    <div class="header-end">
+      <a href="https://github.com/CarlosVilasAlvarez/gpro-data" class="github-icon">
+        <img src="assets/icons/github.svg" alt="github" title="Go to Github repository"/>
+      </a>
+      <a href="mailto:carlosvilasalvarez@gmail.com?subject=Feedback" class="gmail-icon">
+        <img src="assets/icons/gmail.svg" alt="email" title="Contact" />
+      </a>
+    </div>
+  </header>
+  <main id="app">
+  </main>
+  <footer>
+    <div>Made by Carlos Vilas Alvarez</div>
     <div>
-      Iconos diseñados por
+      Icons designed by
       <a href="https://www.flaticon.es/autores/freepik" title="Freepik">
         Freepik
       </a>
+      ,
+      <a href="https://www.flaticon.es/autores/pixel-perfect" title="Pixel perfect">
+        Pixel perfect
+      </a>
+      and
+      <a href="https://www.flaticon.com/authors/google" title="Google">Google</a>
       from
       <a href="https://www.flaticon.es/" title="Flaticon">www.flaticon.es</a>
     </div>
-  </body>
-  <script src="https://unpkg.com/vue@next"></script>
-  <script src="scripts/ipcRenderer"></script>
+  </footer>
+</body>
+<script src="scripts/renderer.js"></script>
+<script src="scripts/index.js"></script>
 </html>
